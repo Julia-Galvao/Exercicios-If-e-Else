@@ -13,9 +13,9 @@ public class Exercicio5 {
         System.out.println("Lado 3 --> ");
         lado3 = sc.nextDouble();
 
-        if((lado1 < lado2 + lado3) && (lado2 < lado1 + lado3) && (lado3< lado1 + lado2));
-        System.out.println("É um triângulo");
-
+        if((lado1 < lado2 + lado3) && (lado2 < lado1 + lado3) && (lado3< lado1 + lado2)) {
+            System.out.println("É um triângulo");
+        }
         else {
             System.out.println("Não é um triângulo");
 
